@@ -1,0 +1,15 @@
+[project]
+name = "python-backend-journey"
+version = "0.1.0"
+description = "Learning backend development with Python"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.136.0",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.3",
+    "pytest>=9.0.3",
+    "uvicorn>=0.45.0",
+]
+
+[dependency-groups]
+dev = []
